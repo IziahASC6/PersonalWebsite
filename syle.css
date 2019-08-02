@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.aboutMe {
+  justify-content: center;
+  padding: 5% 15% 5% 15%;
+  font-size: 20px;
+  font-family: Indie Flower;
+  color: white;
+  background-color: purple;
+  margin: 0px -20px;
+}
+.portfolioPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 15% 5% 15%;
+  font-size: 20px;
+  font-family: Indie Flower;
+  color: white;
+  background-color: darkorange;
+  margin: 0px -20px;
+}
+.contact-me-page {
+  padding: 5% 15% 5% 15%;
+  font-size: 20px;
+  font-family: Indie Flower;
+  color: white;
+  background-color: darkorange;
+  margin: 0px -20px;
+}
+.contact-form-setting {
+  padding: 0px 25% 0px 25%;
+}
+.link-page {
+  padding: 5% 15% 5% 15%;
+  font-size: 20px;
+  font-family: Indie Flower;
+  color: rgb(255, 255, 255);
+  background-color:purple;
+  margin: 0px -20px;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.button-style {
+  border-radius: 50%;
+  background-color: #FF7F50;
+  font-size: 1.3em;
+}

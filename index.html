@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap.css"/>
+        <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>  -->
+        <link rel="stylesheet" href="syle.css">
+        <script src="sketch.js"> </script>
+<style>
+  
+ul.topnav {
+  list-style-type: none;
+  margin: 0px -15px;
+  padding-left: 20%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #6a5acd;
+  
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+  font-family: Indie Flower;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+  
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/gDWEcFqILoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<div class="container-fluid">
+  
+  <ul class="topnav", id="myTopnav">
+    <li><a class="active nav-setting" href="#About">About</a></li>
+    <li><a href="#Portfolio">Portfolio</a></li>
+<li><a href="#Contact">Contact</a></li>
+    <li class="icon"><a href="javascript:void(0);" style="font-size:15px;"  onclick="navFunction()">&#9776;</a></li>
+  </ul>
+  
+    
+  <div class="aboutMe"> 
+      <a name="About"></a>
+    <h2 class="text-center">About Me</h2>
+    <p>Hello, I'm Iziah.</p>
+    <img src="Personal Img.jpg" alt="Profile Picture" class="img-responsive img-circle" style="width:200px; height=200px">
+
+  </div>
+  
+    <!--portfolio page-->
+    <a name="Portfolio"></a>
+    <div class="portfolioPage">
+      <h2 class="text-center">Portfolio</h2>
+      
+      <div class="row">
+        <div class="col-xs-6 col-md-6"><img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder-Copy.png" alt="portfolio-image-1" class="img-responsive"></div>
+      <div class="col-xs-6 col-md-6"><img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder-Copy.png" alt="portfolio-image-2" class="img-responsive"></div>
+       </div>
+      </br>
+      <div class="row">
+        <div class="col-xs-6 col-md-6" ><img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder-Copy.png" alt="portfolio-image-1" class="img-responsive"></div>
+      <div class="col-xs-6 col-md-6"><img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder-Copy.png" alt="portfolio-image-2" class="img-responsive"></div>
+       </div>
+      
+    </div>
+  
+  <!--contact me page-->
+  <a name="Contact"></a>
+  <div class="contact-me-page">
+    <h2 class="text-center">Contact Me</h2>
+    
+    <div class="contact-form-setting">
+    <input type="text" class="form-control" placeholder="Name" style="margin-bottom:10px" required>
+      <input type="text" class="form-control" placeholder="E-mail Address" style="margin-bottom:10px" required>
+      <input type="text" class="form-control" placeholder="Phone Number" style="margin-bottom:10px"  required>
+      <textarea class="form-control" rows="5" placeholder="Message" style="margin-bottom:10px" required></textarea>
+      <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>  Send</button>
+    </div>
+    
+  </div><!--contact me page-->
+  
+  <!--link page-->
+  <div class="link-page row">
+    <div class="col-xs-6 col-md-6">
+      <h2 class="text-center">ABOUT THIS PAGE</h2>
+      <p>Made with <i class="fa fa-fw fa-coffee"></i> and  <i class="fa fa-fw fa-music"></i> by Iziah</p>
+    </div>
+    
+    <div class="col-xs-6 col-md-6 text-center">
+    <h2 class="text-center">People say nothing is impossible but I do nothing everyday. -Everyone</h2>
+      <button class="button-style"><a href="https://www.facebook.com/ruopinglin"><i class="fa fa-fw fa-facebook"></i></a></button>
+      <button class="button-style"><a href="https://github.com/melanie0926"><i class="fa fa-fw fa-github"></i></a></button>
+      
+    </div>
+   
+  </div> <!--link page-->
+
+
+
+</div>
+</body>
